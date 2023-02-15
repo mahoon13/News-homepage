@@ -52,7 +52,7 @@ const NavbarLink = styled.li`
 
 export default (props) => {
   return (
-    <Navbar id="navbar">
+    <Navbar>
       <Logo src={LogoImage} />
       <NavbarList id="nav-ul">
         <NavbarLink>home</NavbarLink>
