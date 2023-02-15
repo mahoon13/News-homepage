@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import DesktopImage from "../assets/images/image-web-3-desktop.jpg";
-import MobileImage from "../assets/images/image-web-3-mobile.jpg";
+import DesktopImage from "/image-web-3-desktop.jpg";
+import MobileImage from "/image-web-3-mobile.jpg";
 
 const MainArticle = styled.section`
   grid-column: span 2;
