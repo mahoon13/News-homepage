@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import Thumbnail1 from "../assets/images/image-retro-pcs.jpg";
-import Thumbnail2 from "../assets/images/image-top-laptops.jpg";
-import Thumbnail3 from "../assets/images/image-gaming-growth.jpg";
+import Thumbnail1 from "/image-retro-pcs.jpg";
+import Thumbnail2 from "/image-top-laptops.jpg";
+import Thumbnail3 from "/image-gaming-growth.jpg";
 
 const Container = styled.div`
   width: 100%;
