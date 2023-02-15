@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import CloseIcon from "../assets/images/icon-menu-close.svg";
+import CloseIcon from "/icon-menu-close.svg";
 
 const Container = styled.div`
   display: flex;
