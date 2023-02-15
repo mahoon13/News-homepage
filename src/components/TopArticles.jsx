@@ -58,7 +58,7 @@ const ArticleBody = styled.div`
 
 export default () => {
   return (
-    <Container id="top-articles">
+    <Container>
       <ArticleBox>
         <img src={Thumbnail1} />
         <ArticleBody>
