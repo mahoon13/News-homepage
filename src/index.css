@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: Inter Bold;
+  src: url("./assets/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: Inter extra Bold;
+  src: url("./assets/fonts/static/Inter-ExtraBold.ttf");
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3 {
+  font-family: "Inter";
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+li {
+  font-family: "Inter Bold";
+}
+
+h1 {
+  font-family: "Inter Bold";
+}
+
+img {
+  width: 100%;
+}
+
+.hidden {
+  transform: translateX(100%);
+}
+
+:root {
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+  --off-white: hsl(36, 100%, 99%);
+  --grayish-blue: hsl(233, 8%, 79%);
+  --dark-grayish-blue: hsl(236, 13%, 42%);
+  --very-dark-blue: hsl(240, 100%, 5%);
+  --light-500: rgb(170, 170, 170);
+}
+
+#App {
+  padding: 4rem 10rem;
+}
+
+@media (max-width:1400px) { 
+  #App {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width:1250px) { 
+  #App {
+    padding: 3rem;
+  }
+}
+@media (max-width:1170px) { 
+  #App {
+    padding: 2rem;
+  }
+}
+@media (max-width:950px) { 
+  #App {
+    padding: 2rem 5px;
+  }
+}
+@media (max-width:640px) { 
+  #App {
+    padding: 2rem 1rem;
+  }
+}
