@@ -100,7 +100,7 @@ const ReadMoreBtn = styled.div`
 
 export default () => {
   return (
-    <MainArticle id="main-article">
+    <MainArticle>
       <img src={DesktopImage} className="desktop-image" />
       <img src={MobileImage} className="mobile-image" />
       <h1>The Bright Future of Web 3.0?</h1>
