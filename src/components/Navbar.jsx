@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import LogoImage from "../assets/images/logo.svg";
-import BarsIcon from "../assets/images/icon-menu.svg";
+import LogoImage from "/logo.svg";
+import BarsIcon from "/icon-menu.svg";
 
 const Navbar = styled.div`
   display: flex;
