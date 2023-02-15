@@ -30,7 +30,7 @@ const Container = styled.section`
 
 export default () => {
   return (
-    <Container id="container">
+    <Container>
       <MainArticle />
       <SideNews />
     </Container>
